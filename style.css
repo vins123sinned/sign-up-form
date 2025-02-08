@@ -5,3 +5,23 @@
     font-weight: normal;
     font-style: normal;
 }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.left-section {
+    flex: 1;
+    background-image: url("./assets/brandon-morgan-3qucB7U2l7I-unsplash.jpg");
+    background-size: cover;
+}
+
+.right-section {
+    flex: 2;
+}
