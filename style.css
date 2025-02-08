@@ -17,7 +17,7 @@ body {
     margin: 0;
 }
 
-a {
+.logo, .photo-source a {
     color: #fff;
 }
 
@@ -32,9 +32,6 @@ a {
 }
 
 .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'norsebold', cursive, 'Courier New', Courier, monospace;
     background-color: #00000080;
     padding: 1rem;
@@ -47,8 +44,12 @@ a {
     margin-right: 0.5rem;
 }
 
-.logo-header {
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: clamp(3rem, 7vw, 5rem);
+    text-decoration: none;
     padding: 0%;
     margin: 0;
 }
