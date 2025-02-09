@@ -85,8 +85,7 @@ input[type="password"] {
 .form-information {
     font-weight: 500;
     width: clamp(20rem, 50vw, 35rem);
-    margin-top: 15vh;
-    margin-left: 5vw;
+    margin: 15vh 0 3rem 5vw;
 }
 
 .sign-up-form label {
@@ -122,6 +121,30 @@ input[type="password"] {
     flex-basis: 50%;
 }
 
+.submit-log-in {
+    margin: 2rem 5vw;
+}
+
 .submit-button {
-    background-color: #f9fafb;
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    background-color: #596D48;
+    color: #fff;
+    box-shadow: 2px 5px 8px 0px rgba(216,218,219,0.79);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.log-in-text {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.log-in-text a {
+    color: #596D48;
+    text-decoration: none;
 }
