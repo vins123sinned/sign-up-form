@@ -17,6 +17,23 @@ body {
     margin: 0;
 }
 
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 70%;
+    height: 1.25rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    padding: 0.25rem;
+    margin-bottom: 1rem;
+}
+
 .logo, .photo-source a {
     color: #fff;
 }
@@ -62,4 +79,49 @@ body {
 
 .right-section {
     flex: 2;
+    background-color: #f9fafb;
+}
+
+.form-information {
+    font-weight: 500;
+    width: clamp(20rem, 50vw, 35rem);
+    margin-top: 15vh;
+    margin-left: 5vw;
+}
+
+.sign-up-form label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+}
+
+.form-heading,
+.form-controls {
+    background-color: #fff;
+}
+
+.form-heading {
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    box-shadow: 0px -3px 6px 0px #f5f6f6c9;
+    padding: 1rem 5vw;
+}
+
+.form-controls {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 3px 6px 0px #d8dadbc9;
+    padding: 0 5vw 1.5rem 5vw;
+}
+
+.form-row {
+    flex-basis: 50%;
+}
+
+.submit-button {
+    background-color: #f9fafb;
 }
